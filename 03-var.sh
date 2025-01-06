@@ -1,8 +1,10 @@
 #!/bin/bash
 
+#declaring of variable
 person1=jaanu #no space between = and value
 person2=srinu
 
+#referring variable
 echo "$person1:: hey get up let's go out"
 echo "$person2:: no i want to sleep"
 echo "$person1:: how much more time are you gonna sleep?"
