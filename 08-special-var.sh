@@ -10,3 +10,4 @@ echo "Hostname: $HOSTNAME"
 echo "process ID of the current shell script: $$"
 sleep 50 &
 echo "proces id of last background command: $!"
+echo "exit status $?"
