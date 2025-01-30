@@ -1,6 +1,9 @@
 #!/bin/bash
 
 USERID=$(id -u)
+TIMESTAMP=$(date +%F-%H-%M-%S)
+script_name
+logfile =/tmp/$0
 
 VALIDATE(){
     if [ $1 -ne 0 ]
