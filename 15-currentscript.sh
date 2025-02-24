@@ -7,4 +7,6 @@ echo "process ID of current shell script: $$"
 
 #./16-otherscript.sh
 
-echo "after calling other script, course: $COURSE"
+source ./16-other-script.sh
+
+echo "After calling other script, course: $COURSE"
